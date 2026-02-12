@@ -1,5 +1,24 @@
-node_modules/
-*.pptx
-*.pdf
+# OS
 .DS_Store
 Thumbs.db
+
+# Node
+node_modules/
+
+# Generated outputs
+*.pptx
+*.pdf
+output_examples/
+
+# Dev workspace (not staged, root only)
+/ASAN-PPTX/
+
+# Root-level copies (use skills/ versions instead)
+/asan-slide-curator/
+
+# Backup
+.backup/
+
+# Python
+__pycache__/
+*.pyc
