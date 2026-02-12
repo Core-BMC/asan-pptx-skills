@@ -4,6 +4,15 @@ description: "아산병원 프레젠테이션의 학술 콘텐츠 큐레이션 �
 ---
 
 # Asan Slide Curator
+<!-- This document defines the guidelines that AGENT MUST follow in conversations with the USER. -->
+<!-- NOTE: These are mandatory instructions. The model should read carefully and adhere to all guidelines. -->
+<!-- markdownlint-disable MD013 -->
+<!-- markdownlint-disable MD022 -->
+<!-- markdownlint-disable MD031 -->
+<!-- markdownlint-disable MD032 -->
+<!-- markdownlint-disable MD036 -->
+<!-- markdownlint-disable MD040 -->
+<!-- markdownlint-disable MD060 -->
 
 아산병원 학술 프레젠테이션의 콘텐츠를 큐레이팅하고 품질을 끌어올리는 스킬.
 asan-pptx 스킬이 "어떻게 만들 것인가(스타일/레이아웃)"를 담당한다면,

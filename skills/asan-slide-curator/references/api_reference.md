@@ -1,4 +1,11 @@
 # Reference Documentation for Asan Slide Curator
+<!-- This document defines the guidelines that AGENT MUST follow in conversations with the USER. -->
+<!-- NOTE: These are mandatory instructions. The model should read carefully and adhere to all guidelines. -->
+<!-- markdownlint-disable MD013 -->
+<!-- markdownlint-disable MD022 -->
+<!-- markdownlint-disable MD032 -->
+<!-- markdownlint-disable MD040 -->
+<!-- markdownlint-disable MD060 -->
 
 This is a placeholder for detailed reference documentation.
 Replace with actual reference content or delete if not needed.

@@ -1,4 +1,13 @@
 # Asan PPT — Reports Style (대형 캔버스 · 듀얼패널 · 멀티섹션)
+<!-- This document defines the guidelines that AGENT MUST follow in conversations with the USER. -->
+<!-- NOTE: These are mandatory instructions. The model should read carefully and adhere to all guidelines. -->
+<!-- markdownlint-disable MD013 -->
+<!-- markdownlint-disable MD022 -->
+<!-- markdownlint-disable MD031 -->
+<!-- markdownlint-disable MD032 -->
+<!-- markdownlint-disable MD036 -->
+<!-- markdownlint-disable MD040 -->
+<!-- markdownlint-disable MD060 -->
 
 `AMC_ReportsStyle_Reference.pptx` 에서 추출한 스타일 세팅.
 기술 보고서, 연구 발표, 시스템 아키텍처 설명에 적합한 **대형 캔버스 + 듀얼패널(틸/오렌지) + 다단 섹션** 레이아웃.

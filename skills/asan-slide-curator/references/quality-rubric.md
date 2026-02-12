@@ -1,4 +1,13 @@
 # 슬라이드 품질 평가 루브릭
+<!-- This document defines the guidelines that AGENT MUST follow in conversations with the USER. -->
+<!-- NOTE: These are mandatory instructions. The model should read carefully and adhere to all guidelines. -->
+<!-- markdownlint-disable MD013 -->
+<!-- markdownlint-disable MD022 -->
+<!-- markdownlint-disable MD031 -->
+<!-- markdownlint-disable MD032 -->
+<!-- markdownlint-disable MD036 -->
+<!-- markdownlint-disable MD040 -->
+<!-- markdownlint-disable MD060 -->
 
 5개 차원으로 학술 프레젠테이션의 완성도를 평가한다.
 자동 채점 가능 항목은 `scripts/quality_scorer.py`로 산출, 나머지는 수동 평가.

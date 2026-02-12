@@ -1,4 +1,12 @@
 # 데이터 차트 자동 생성 가이드
+<!-- This document defines the guidelines that AGENT MUST follow in conversations with the USER. -->
+<!-- NOTE: These are mandatory instructions. The model should read carefully and adhere to all guidelines. -->
+<!-- markdownlint-disable MD013 -->
+<!-- markdownlint-disable MD022 -->
+<!-- markdownlint-disable MD031 -->
+<!-- markdownlint-disable MD032 -->
+<!-- markdownlint-disable MD040 -->
+<!-- markdownlint-disable MD060 -->
 
 `scripts/chart_generator.py`로 AMC 색상 팔레트가 적용된 학술 차트를 생성하는 방법.
 

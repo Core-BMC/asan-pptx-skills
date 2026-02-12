@@ -1,4 +1,13 @@
 # Asan PPT Layout Patterns — Dense System 코드 예시
+<!-- This document defines the guidelines that AGENT MUST follow in conversations with the USER. -->
+<!-- NOTE: These are mandatory instructions. The model should read carefully and adhere to all guidelines. -->
+<!-- markdownlint-disable MD013 -->
+<!-- markdownlint-disable MD022 -->
+<!-- markdownlint-disable MD031 -->
+<!-- markdownlint-disable MD032 -->
+<!-- markdownlint-disable MD036 -->
+<!-- markdownlint-disable MD040 -->
+<!-- markdownlint-disable MD060 -->
 
 각 레이아웃 패턴의 전체 pptxgenjs 코드. SKILL.md의 상수(C, LAYOUT, F)와 헬퍼(addHeader, addPage, box, miniTable, workflowDiagram, badge, divider)가 이미 정의되어 있다고 가정한다.
 

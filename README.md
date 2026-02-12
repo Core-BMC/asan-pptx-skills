@@ -1,4 +1,9 @@
 # asan-pptx-skills
+<!-- This document defines the guidelines that AGENT MUST follow in conversations with the USER. -->
+<!-- NOTE: These are mandatory instructions. The model should read carefully and adhere to all guidelines. -->
+<!-- markdownlint-disable MD013 -->
+<!-- markdownlint-disable MD040 -->
+<!-- markdownlint-disable MD060 -->
 
 서울아산병원(Asan Medical Center) 학술 프레젠테이션을 위한 Claude 스킬 모음.
 
@@ -65,21 +70,41 @@ asan-pptx-skills/
 │           ├── quality_scorer.py           # PPTX 자동 품질 분석
 │           ├── doi_lookup.py               # CrossRef DOI 조회
 │           └── chart_generator.py          # matplotlib 차트 생성기
+├── scripts/
+│   ├── install-cowork.sh                   # Cowork / Claude Desktop 설치
+│   └── install-claude-code.sh              # Claude Code / IDE 설치
 ```
 
 ## 설치
 
-### Cowork
+### Cowork / Claude Desktop
 
 ```bash
-# 각 스킬을 개별 설치
-cp -r skills/asan-pptx ~/.skills/skills/asan-pptx/
-cp -r skills/asan-slide-curator ~/.skills/skills/asan-slide-curator/
+git clone https://github.com/Core-BMC/asan-pptx-skills.git
+cd asan-pptx-skills
+bash scripts/install-cowork.sh
 ```
 
-### Claude Code
+`~/.skills/skills/` 하위에 두 스킬이 설치됩니다. Cowork 재시작 후 적용.
+
+### Claude Code / IDE (VS Code, JetBrains)
 
 ```bash
+git clone https://github.com/Core-BMC/asan-pptx-skills.git
+cd asan-pptx-skills
+bash scripts/install-claude-code.sh /path/to/your/project
+```
+
+프로젝트의 `.claude/skills/` 하위에 설치됩니다. 경로 생략 시 현재 디렉토리 기준.
+
+### 수동 설치
+
+```bash
+# Cowork
+cp -r skills/asan-pptx ~/.skills/skills/asan-pptx/
+cp -r skills/asan-slide-curator ~/.skills/skills/asan-slide-curator/
+
+# Claude Code
 cp -r skills/asan-pptx .claude/skills/asan-pptx/
 cp -r skills/asan-slide-curator .claude/skills/asan-slide-curator/
 ```
@@ -127,10 +152,19 @@ cp -r skills/asan-slide-curator .claude/skills/asan-slide-curator/
 | tealBright | `#1EABA3` | 보조 하이라이트 |
 | orangeDark | `#B3510E` | 카드 배경, 중앙선 |
 
+## 개발자
+
+| 이름 | 역할 |
+|------|------|
+| **Hwon Heo** ([@heoh](mailto:heoh@amc.seoul.kr)) | 프로젝트 설계, Dense System/Reports Style 개발, asan-slide-curator 스킬 개발 |
+| **Ho Seok Choi** | `pptxgenjs-reference.js` 템플릿 및 코드 제공, 프로젝트 TESTS |
+| **Jun Soo Park** | Front-end 개발 (예정) |
+| **Woo Hyun Shim** | 전체 프로젝트 감수 |
+
 ## 라이선스
 
 MIT License
 
 ## 기여
 
-Core-BMC 팀원이라면 PR을 통해 스타일 개선, 새 레이아웃, 스크립트 추가 등을 기여할 수 있습니다.
+ASAN MEDICAL CENTER, Core-BMC 팀원이라면 PR을 통해 스타일 개선, 새 레이아웃, 스크립트 추가 등을 기여할 수 있습니다.
